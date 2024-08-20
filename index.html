@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Targeta de nombres</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form>
+        <h1 class="h1" id="h1">Saludo Personalizado</h1>
+        <label>
+            <span id="name">Nombre:</span>
+            <input type="text" class="campoNombre" id="campoNombre">
+        </label>
+        <button type="button" onclick="mostrarNombre() " id="btn">Mostrar Nombre</button>
+        <p id="text"></p>
+    </form>
+    <div class="buttons">
+        <button id="dark" class="btn" onclick="dark()">Dark</button>
+        <button id="white" class="btn" onclick="white()">White</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
